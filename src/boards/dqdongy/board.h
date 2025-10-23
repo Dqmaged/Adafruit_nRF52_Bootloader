@@ -37,7 +37,7 @@
 /* LED
  *------------------------------------------------------------------*/
 #define LEDS_NUMBER           1
-#define LED_PRIMARY_PIN       _PINNUM(0, 11)
+#define LED_PRIMARY_PIN       _PINNUM(0, 29)
 //#define LED_SECONDARY_PIN     _PINNUM(0, 9)
 //#define LED_TERTIARY_PIN      _PINNUM(0, 17)
 #define LED_STATE_ON          1
@@ -46,8 +46,8 @@
 /* BUTTON
  *------------------------------------------------------------------*/
 #define BUTTONS_NUMBER        2
-#define BUTTON_1              _PINNUM(0, 29)   // Random unused pin
-#define BUTTON_2              _PINNUM(0, 30)  // Random unused pin
+#define BUTTON_1              _PINNUM(0, 0)   // Random unused pin
+#define BUTTON_2              _PINNUM(0, 1)  // Random unused pin
 #define BUTTON_PULL           NRF_GPIO_PIN_PULLUP
 
 //--------------------------------------------------------------------+
