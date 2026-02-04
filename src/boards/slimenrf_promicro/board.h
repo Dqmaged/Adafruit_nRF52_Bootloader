@@ -47,8 +47,8 @@
 //--------------------------------------------------------------------+
 // BLE OTA
 //--------------------------------------------------------------------+
-#define BLEDIS_MANUFACTURER  "Nekumori"
-#define BLEDIS_MODEL         "Sakura-nRF"
+#define BLEDIS_MANUFACTURER  "SlimeVR"
+#define BLEDIS_MODEL         "SlimeNRF Tracker ProMicro"
 
 //--------------------------------------------------------------------+
 // USB
@@ -59,8 +59,8 @@
 #define USB_DESC_CDC_ONLY_PID  0x00B3
 
 #define UF2_PRODUCT_NAME  "SlimeVR SlimeNRF Tracker ProMicro"
-#define UF2_VOLUME_LABEL  "SakuranRF"
-#define UF2_BOARD_ID      "nRF52833-SakuranRF"
-#define UF2_INDEX_URL     "https://github.com/Dqmaged"
+#define UF2_VOLUME_LABEL  "SLIMENRFTRK"
+#define UF2_BOARD_ID      "nRF52840-SlimeNRFTracker-ProMicro"
+#define UF2_INDEX_URL     "https://github.com/SlimeVR"
 
 #endif // _SLIMENRF_TRK_PROMICRO_H
